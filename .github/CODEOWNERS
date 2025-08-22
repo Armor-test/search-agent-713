@@ -1,0 +1,38 @@
+# CODEOWNERS file for search-agent-713
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-reporting @Armor-test/unit-cloud @Armor-test/squad-frontend
+
+# Directory ownership
+/src/ @Armor-test/dept-reporting @Armor-test/squad-search @Armor-test/squad-tooling
+/config/ @Armor-test/squad-api @Armor-test/grp-payments @Armor-test/dept-reporting
+/dist/ @Armor-test/dept-notifications @Armor-test/unit-devops @Armor-test/dept-release
+/extensions/ @Armor-test/dept-test @Armor-test/unit-cloud
+/shared/ @Armor-test/squad-mobile @Armor-test/squad-qa @Armor-test/unit-design
+/docs/ @Armor-test/dept-api @Armor-test/dept-data @Armor-test/grp-search
+/styles/ @Armor-test/dept-security @Armor-test/unit-design @Armor-test/squad-frontend
+/test/ @Armor-test/squad-cloud @Armor-test/dept-reliability @Armor-test/grp-search
+/pages/ @Armor-test/squad-frontend @Armor-test/squad-ml @Armor-test/squad-ux
+/hooks/ @Armor-test/squad-frontend @Armor-test/grp-ui
+/internal/ @Armor-test/team-logging @Armor-test/squad-research @Armor-test/team-security
+/security/ @Armor-test/grp-ui @Armor-test/squad-payments
+/components/ @Armor-test/team-reporting @Armor-test/unit-test
+
+# File type ownership
+*.ts @Armor-test/squad-cache @Armor-test/unit-devops
+*.json @Armor-test/squad-database @Armor-test/squad-search
+*.yml @Armor-test/dept-identity @Armor-test/dept-notifications
+*.html @Armor-test/unit-test @Armor-test/grp-payments
+*.cpp @Armor-test/grp-payments @Armor-test/squad-research
+*.scala @Armor-test/squad-payments @Armor-test/unit-design
+*.cs @Armor-test/squad-qa @Armor-test/squad-search @Armor-test/dept-test
+*.ini @Armor-test/grp-ui @Armor-test/squad-cloud
+*.jsx @Armor-test/dept-data @Armor-test/unit-cloud @Armor-test/grp-payments
+*.js @Armor-test/grp-storage @Armor-test/squad-reporting
+*.tsx @Armor-test/squad-apps @Armor-test/team-governance @Armor-test/squad-qa
+*.sh @Armor-test/squad-cache @Armor-test/dept-billing
+*.go @Armor-test/dept-notifications @Armor-test/squad-database @Armor-test/team-core
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
